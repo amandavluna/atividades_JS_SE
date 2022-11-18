@@ -15,14 +15,16 @@
         let nome2 = prompt ("Digite o nome da segunda pessoa.");
         let peso2 = Number (prompt ("Digite o peso desta pessoa"));
         let resul;
+        let resul1;
+        let resul2;
 
         if(peso1 > peso2){
             resul = " O " + nome1 + " é mais obeso que  " + nome2;
         }else{
             resul = " O " + nome2 + " é mais obeso que  " + nome1;
         }
-        let resul1 = "Nome: " + nome1 + ", pesa " + peso1;
-        let resul2 = "Nome: " + nome2 + ", pesa " + peso2;
+        let resu1 = "Nome: " + nome1 + ", pesa " + peso1;
+        let resu2 = "Nome: " + nome2 + ", pesa " + peso2;
 
         document.getElementById("peso").innerHTML = resul1+"</br>"+resul2+"</br>"+resul;
     </script>
